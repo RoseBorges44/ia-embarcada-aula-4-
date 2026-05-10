@@ -1,0 +1,30 @@
+# ESP-IDF / build artifacts
+build/
+managed_components/
+dependencies.lock
+sdkconfig.old
+*.bin
+*.elf
+*.map
+
+# Material de referência (não faz parte da entrega)
+Aula 4 - Introdução ao Tensorflow Lite*.pdf
+instruções.jpg
+
+# Notas internas dos projetos
+hello_world_tflite/PROXIMOS_PASSOS.md
+light_classifier_tflite/PROXIMOS_PASSOS_EXTRA.md
+
+# Ferramentas / IDEs
+.vscode/
+.idea/
+
+# Sistema operacional
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Python (notebooks)
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
